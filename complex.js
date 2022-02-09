@@ -1,6 +1,4 @@
-import {sum} from "./sum"
-export function complex(a, b) {
-  const sum_ = sum(a, b);
+export function ComplexFun(a, b) {
+  const sum_ = a + b;
   return sum_ * 10;
 }
-

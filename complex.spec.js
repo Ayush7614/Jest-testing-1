@@ -1,8 +1,10 @@
-const complex = require("./complex.js");
+import { ComplexFun } from "./complex";
 
 describe("test the complex function", () => {
-  // check
-  test("complex test", () => {
-    expect(complex(1, 2)).toBe(30);
+  it("check for the complex function ", () => {
+    // arrange
+    const result = ComplexFun(1, 2);
+    // assert
+    expect(result).toBe(30);
   });
 });
